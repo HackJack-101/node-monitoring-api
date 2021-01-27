@@ -1,4 +1,4 @@
 export default {
-    port: 8010,
+    port: 8080,
     token: 'CHANGE ME !',
 };

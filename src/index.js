@@ -18,6 +18,6 @@ app.use('/api/', (req, res, next) => {
 
 app.use('/api/', routes);
 
-app.listen(8010, () => {
-    console.log(`The server is listening on port ${8010}`);
+app.listen(configuration.port, () => {
+    console.log(`The server is listening on port ${configuration.port}`);
 });
